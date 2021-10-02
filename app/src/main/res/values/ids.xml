@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="upload_button" type="id">upload_button</item>
+    <item name="button2" type="id">button2</item>
+    <item name="editTextTextMultiLine" type="id">editTextTextMultiLine</item>
+    <item name="titleId2" type="id">titleId2</item>
+    <item name="titleId" type="id">titleId</item>
+    <item name="titleId3" type="id">titleId3</item>
+    <item name="editTextTextPersonName3" type="id">editTextTextPersonName3</item>
+    <item name="titleId6" type="id">titleId6</item>
+    <item name="editTextTextPersonName7" type="id">editTextTextPersonName7</item>
+    <item name="titleId4" type="id">titleId4</item>
+</resources>

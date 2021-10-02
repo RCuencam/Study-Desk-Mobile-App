@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/titleId6"
+        android:layout_width="107dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="17dp"
+        android:text="Descripción"
+        android:textAlignment="center"
+        android:textColor="#2C305B"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextMultiLine"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName7"
+        app:layout_constraintStart_toStartOf="@+id/titleId2"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName7" />
+
+    <TextView
+        android:id="@+id/titleId2"
+        android:layout_width="181dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="69dp"
+        android:layout_marginBottom="32dp"
+        android:text="Subir Archivos"
+        android:textAlignment="center"
+        android:textColor="#2C305B"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/titleId3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="0dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="67dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="67dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="@+id/titleId5"
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/titleId4" />
+
+    <TextView
+        android:id="@+id/titleId5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="12dp"
+        android:text="Título"
+        android:textAlignment="center"
+        android:textColor="#2C305B"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName7"
+        app:layout_constraintEnd_toEndOf="@+id/titleId6"
+        app:layout_constraintStart_toStartOf="@+id/titleId6"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName5" />
+
+    <TextView
+        android:id="@+id/titleId4"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="71dp"
+        android:text="Carrera"
+        android:textAlignment="textStart"
+        android:textColor="#2C305B"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextTextPersonName5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/titleId3"
+        app:layout_constraintTop_toTopOf="@+id/titleId2" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="215dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="19dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toTopOf="@+id/upload_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleId6" />
+
+    <TextView
+        android:id="@+id/titleId3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginBottom="28dp"
+        android:text="Universidad"
+        android:textAlignment="textStart"
+        android:textColor="#2C305B"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName5"
+        app:layout_constraintEnd_toStartOf="@+id/titleId4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleId2" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName7"
+        android:layout_width="165dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/titleId6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleId5" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="28dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/titleId5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName3"
+        app:layout_constraintTop_toBottomOf="@+id/titleId3" />
+
+    <TextView
+        android:id="@+id/titleId"
+        android:layout_width="177dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginBottom="38dp"
+        android:text="StudyDesk"
+        android:textAlignment="center"
+        android:textColor="#2C305B"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/titleId2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/upload_button"
+        android:layout_width="115dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="1dp"
+        android:backgroundTint="#2C305B"
+        android:text="Publicar"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:backgroundTint="#3EB5AD"
+        android:text="Cancelar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/upload_button"
+        app:layout_constraintTop_toBottomOf="@+id/upload_button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
