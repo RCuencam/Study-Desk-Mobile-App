@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">StudyDesk</string>
+    <string name="buscar">Buscar</string>
 </resources>
