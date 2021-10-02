@@ -4,6 +4,209 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HomePage">
+    tools:context=".HomePage"
+    tools:layout_editor_absoluteX="-30dp"
+    tools:layout_editor_absoluteY="-80dp">
+
+    <TextView
+        android:id="@+id/tvSearch1"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="75dp"
+        android:text="@string/find_docs"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/btSearch"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivBackground1" />
+
+    <TextView
+        android:id="@+id/tvSearch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="56dp"
+        android:text="@string/tutors"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSearch3" />
+
+    <TextView
+        android:id="@+id/tvSearch3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="28dp"
+        android:text="@string/career"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSearch1" />
+
+    <Button
+        android:id="@+id/btUploadDocs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="@color/blue_night"
+
+        android:text="@string/upload_documents"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivTitleLogo" />
+
+    <Button
+        android:id="@+id/btSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/blue_night"
+        android:text="@string/search_system"
+        app:layout_constraintBottom_toTopOf="@+id/ivBackground2"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btTutorConvert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/blue_night"
+        android:text="@string/covert_tutor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivBackground1"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="112dp"
+        android:background="#6FCFFD"
+        android:contentDescription="@string/background_descrip"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivBackground2"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:background="#6FCFFD"
+        android:contentDescription="@string/background_descrip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvConvert1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="60dp"
+        android:text="@string/share_knowledge"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/btTutorConvert"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/tvConvert2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="68dp"
+        android:text="@string/gain"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvConvert1" />
+
+    <ImageView
+        android:id="@+id/ivTitleLogo"
+        android:layout_width="240dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/studydesk_title_logo"
+        android:contentDescription="@string/image_descript" />
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="83dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/avatar"
+        android:contentDescription="@string/image_descript"
+        />
+
+
+    <ImageView
+        android:id="@+id/ivContacts"
+        android:layout_width="166dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="52dp"
+        android:contentDescription="@string/image_descript"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivLogo"
+        app:srcCompat="@drawable/contacts_net"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/ivStudents"
+        android:layout_width="144dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/image_descript"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/students_pc" />
+
+    <ImageView
+        android:id="@+id/ivFindSearch"
+        android:layout_width="157dp"
+        android:layout_height="139dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="33dp"
+        android:contentDescription="@string/image_descript"
+        app:layout_constraintBottom_toTopOf="@+id/ivBackground2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/findsearch" />
+
+    <TextView
+        android:id="@+id/tvUpload1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="12dp"
+        android:text="@string/share_docs"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivTitleLogo" />
+
+    <TextView
+        android:id="@+id/tvUpload2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="68dp"
+        android:text="@string/notes"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvUpload1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
