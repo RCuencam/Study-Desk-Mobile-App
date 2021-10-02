@@ -39,7 +39,7 @@
         </activity>
 
         <activity
-            android:name=".UploadDocumentsView"
+            android:name=".UploadDocumentsActivity"
             android:exported="true" />
 
 
