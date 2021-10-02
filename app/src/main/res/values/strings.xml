@@ -13,4 +13,7 @@
     <string name="image_descript">It\'s a simple image</string>
     <string name="share_docs">Comparte tus documentos</string>
     <string name="notes">y apuntes</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">password</string>
+    <string name="sign_in">SIGN IN</string>
 </resources>
