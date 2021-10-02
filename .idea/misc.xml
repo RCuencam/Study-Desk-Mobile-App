@@ -3,11 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+<<<<<<< HEAD
         <entry key="..\:/Users/eduiz/Documents/AndroidStudioProjects/Study-Desk-Mobile-App/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.37135416666666665" />
         <entry key="..\:/Users/eduiz/Documents/AndroidStudioProjects/Study-Desk-Mobile-App/app/src/main/res/layout/activity_home.xml" value="0.19895833333333332" />
         <entry key="..\:/Users/eduiz/Documents/AndroidStudioProjects/Study-Desk-Mobile-App/app/src/main/res/layout/activity_home_page.xml" value="0.2" />
         <entry key="..\:/Users/eduiz/Documents/AndroidStudioProjects/Study-Desk-Mobile-App/app/src/main/res/layout/activity_login_page.xml" value="0.22" />
         <entry key="..\:/Users/eduiz/Documents/AndroidStudioProjects/Study-Desk-Mobile-App/app/src/main/res/layout/activity_main.xml" value="0.33" />
+=======
+        <entry key="..\:/Users/eduiz/Documents/AndroidStudioProjects/Study-Desk-Mobile-App/app/src/main/res/layout/activity_home_page.xml" value="0.33" />
+        <entry key="..\:/Users/eduiz/Documents/AndroidStudioProjects/Study-Desk-Mobile-App/app/src/main/res/layout/activity_main.xml" value="0.31476449275362317" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_search_file.xml" value="0.5" />
+>>>>>>> d0732a2a4af36fbe89ddd631b2c6cdcd0405efba
       </map>
     </option>
   </component>

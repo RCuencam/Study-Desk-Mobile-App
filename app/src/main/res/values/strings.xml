@@ -20,4 +20,6 @@
     <string name="create_account">Create Account</string>
     <string name="or">OR</string>
     <string name="username_or_password">Username or Password are incorrect</string>
+    <string name="buscar">Buscar</string>
+
 </resources>
