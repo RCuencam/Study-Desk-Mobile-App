@@ -4,8 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/eduiz/Documents/AndroidStudioProjects/Study-Desk-Mobile-App/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.37135416666666665" />
+        <entry key="..\:/Users/eduiz/Documents/AndroidStudioProjects/Study-Desk-Mobile-App/app/src/main/res/layout/activity_home.xml" value="0.19895833333333332" />
         <entry key="..\:/Users/eduiz/Documents/AndroidStudioProjects/Study-Desk-Mobile-App/app/src/main/res/layout/activity_home_page.xml" value="0.2" />
-        <entry key="..\:/Users/eduiz/Documents/AndroidStudioProjects/Study-Desk-Mobile-App/app/src/main/res/layout/activity_login_page.xml" value="0.33" />
+        <entry key="..\:/Users/eduiz/Documents/AndroidStudioProjects/Study-Desk-Mobile-App/app/src/main/res/layout/activity_login_page.xml" value="0.22" />
         <entry key="..\:/Users/eduiz/Documents/AndroidStudioProjects/Study-Desk-Mobile-App/app/src/main/res/layout/activity_main.xml" value="0.33" />
       </map>
     </option>

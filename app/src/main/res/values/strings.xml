@@ -4,7 +4,7 @@
     <string name="upload_documents">Subir documentos</string>
     <string name="search_system">Sistema de búsqueda</string>
     <string name="covert_tutor">Conviertete en tutor</string>
-    <string name="find_docs">encuentra_documentos</string>
+    <string name="find_docs">Encuentra documentos</string>
     <string name="tutors">y tambien tutores</string>
     <string name="career">de tu carrera universitaria</string>
     <string name="background_descrip">It\'s a simple background</string>
@@ -14,6 +14,10 @@
     <string name="share_docs">Comparte tus documentos</string>
     <string name="notes">y apuntes</string>
     <string name="username_hint">Username</string>
-    <string name="password_hint">password</string>
+    <string name="password_hint">Password</string>
     <string name="sign_in">SIGN IN</string>
+    <string name="login">Login</string>
+    <string name="create_account">Create Account</string>
+    <string name="or">OR</string>
+    <string name="username_or_password">Username or Password are incorrect</string>
 </resources>
