@@ -38,6 +38,10 @@
             android:exported="true">
         </activity>
 
+        <activity
+            android:name=".UploadDocumentsView"
+            android:exported="true" />
+
 
     </application>
 

@@ -4,12 +4,19 @@
     <option name="filePathToZoomLevelMap">
       <map>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <entry key="..\:/Users/eduiz/Documents/AndroidStudioProjects/Study-Desk-Mobile-App/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.37135416666666665" />
         <entry key="..\:/Users/eduiz/Documents/AndroidStudioProjects/Study-Desk-Mobile-App/app/src/main/res/layout/activity_home.xml" value="0.19895833333333332" />
         <entry key="..\:/Users/eduiz/Documents/AndroidStudioProjects/Study-Desk-Mobile-App/app/src/main/res/layout/activity_home_page.xml" value="0.2" />
         <entry key="..\:/Users/eduiz/Documents/AndroidStudioProjects/Study-Desk-Mobile-App/app/src/main/res/layout/activity_login_page.xml" value="0.22" />
         <entry key="..\:/Users/eduiz/Documents/AndroidStudioProjects/Study-Desk-Mobile-App/app/src/main/res/layout/activity_main.xml" value="0.33" />
 =======
+=======
+        <entry key="..\:/Users/RODRIGO/Documents/Cursos/Aplicaciones-para-Dispositivos-Moviles/Study Desk/Study-Desk-Mobile-App/app/src/main/res/layout/activity_home_page.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/RODRIGO/Documents/Cursos/Aplicaciones-para-Dispositivos-Moviles/Study Desk/Study-Desk-Mobile-App/app/src/main/res/layout/activity_main.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/RODRIGO/Documents/Cursos/Aplicaciones-para-Dispositivos-Moviles/Study Desk/Study-Desk-Mobile-App/app/src/main/res/layout/toast.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/RODRIGO/Documents/Cursos/Aplicaciones-para-Dispositivos-Moviles/Study Desk/Study-Desk-Mobile-App/app/src/main/res/layout/upload_documents.xml" value="0.5" />
+>>>>>>> 72907fa7a1e3c359b5792b89dc28f5b259918748
         <entry key="..\:/Users/eduiz/Documents/AndroidStudioProjects/Study-Desk-Mobile-App/app/src/main/res/layout/activity_home_page.xml" value="0.33" />
         <entry key="..\:/Users/eduiz/Documents/AndroidStudioProjects/Study-Desk-Mobile-App/app/src/main/res/layout/activity_main.xml" value="0.31476449275362317" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />

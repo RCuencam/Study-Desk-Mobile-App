@@ -14,5 +14,10 @@ class HomeActivity : AppCompatActivity() {
         btnSearch.setOnClickListener {
             startActivity(Intent(this, SearchFileActivity::class.java))
         }
+
+        val btUpload = findViewById<Button>(R.id.btUploadDocs)
+        btUpload.setOnClickListener{
+            startActivity(Intent(this, MainActivity::class.java))
+        }
     }
 }
